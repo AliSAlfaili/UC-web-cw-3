@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ animation: animation-name;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px;
+    transition: 0.5s;
+       border: 2px;
+       border-color: darkkhaki;
+       border-right:2px solid black;
+       line-height:4em
+}
+       .box:hover{
+      background-color: turquoise;
+       }
+       body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: change-background 4s linear infinite;
+
+       }
+       @keyframes change-background {
+        0% {
+          background: #69b7eb;
+        }
+        50% {
+          background: #b3dbd3;
+        }
+        100% {
+          background: #f4d6db;
+        }
+      }
+      
+
+      
